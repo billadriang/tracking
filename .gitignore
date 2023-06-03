@@ -1,0 +1,49 @@
+# Archivos y carpetas específicos a ignorar
+
+# Carpeta de dependencias
+/node_modules
+
+# Archivo de configuración de entorno
+.env
+
+# Archivos de registro
+*.log
+
+# Archivos de respaldo y temporales
+*.bak
+*.swp
+*.tmp
+
+# Entornos de desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Carpeta de compilación
+/build
+
+# Carpeta de archivos generados
+/dist
+
+# Archivo de bloqueo del sistema
+yarn.lock
+package-lock.json
+
+# Visual Studio Code
+.vscode
+.idea
+
+# Sistemas operativos
+Thumbs.db
+.DS_Store
+
+# Archivos de configuración de IDE y editores
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
